@@ -81,7 +81,7 @@ void handleRoot() {
     }
 
     body {
-  background: url('https://raw.githubusercontent.com/mohatamimhaque/image/7d429f09c2a15c20a04b0b8c9f056df9ab981cbe/26837.jpg') no-repeat center center fixed;    background-size: cover;
+  background: url('https://raw.githubusercontent.com/mohatamimhaque/CareConnect/refs/heads/main/assets/img/26837.jpg') no-repeat center center fixed;    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
