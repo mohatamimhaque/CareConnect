@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Care Connect</title>
+  <link rel="icon" type="image/jpeg" href="assets/img/logo.jpg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <h2>Unified Health Graph</h2>
+
+  <div id="filter-container">
+    <label for="filter">⏱️ Time Range:</label>
+    <select id="filter" onchange="fetchData()">
+    <option value="minutely">Minutely</option>
+    <option value="hourly">Hourly</option>
+    <option value="daily">Daily</option>
+    <option value="weekly">Weekly</option>
+    <option value="monthly">Monthly</option>
+    </select>
+
+  </div>
+
+  <canvas id="healthChart" height="150"></canvas>
+
+  <script src="assets/js/script.js"></script>
+  <script>
+    setTimeout(function() {
+      location.reload();
+    }, 60000);
+  </script>
+</body>
+</html>

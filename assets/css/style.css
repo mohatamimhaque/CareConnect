@@ -1,0 +1,35 @@
+body {
+  background: url("../img/26837.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #f44;
+}
+
+canvas {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#filter-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 6px 10px;
+  font-size: 16px;
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
